@@ -1,0 +1,33 @@
+.btn {
+    position: relative;
+    height: 50px;
+    width: 182px;
+    color: white;
+    background-color: $main-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    &-middle {
+        position: inherit;
+        width: 203px;
+    }
+    &-large {
+        
+        position: inherit;
+        width: 254px;
+    }
+}
+
+.btn-ghost {
+
+    width: 523px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
